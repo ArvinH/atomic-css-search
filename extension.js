@@ -4,6 +4,17 @@ const vscode = require('vscode');
 const flattenDeep = require('lodash/flattenDeep');
 const Rules = require('atomizer/src/rules');
 
+function insertText(text) {
+    var editor = vscode.window.activeTextEditor;
+    editor.edit(function (editBuilder) {
+        editBuilder.delete(editor.selection);
+    }).then(function () {
+        editor.edit(function (editBuilder) {
+            editBuilder.insert(editor.selection.start, text);
+        });
+    });
+}
+
 function replaceRTLTokens(str = '') {
     if (typeof str !== 'string') {
         return str;
@@ -62,11 +73,9 @@ function activate(context) {
             placeHolder: ''
         })
         .then(selected => {
-            if (selected === 'a') {
-
-                // Display a message box to the user
-                vscode.window.showInformationMessage('Hello World!');
-            }
+            const selectedClass = selected.split(') ');
+            const finalClass = `${selectedClass[0]}) `;
+            insertText(finalClass);
         });
     });
 
