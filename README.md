@@ -2,6 +2,9 @@
 
 Search Atomic css right in your favorite editor
 
+## Download Link:
+https://marketplace.visualstudio.com/items?itemName=ArvinH.atomic-css-search
+
 ## Features
 
 ![Demo](https://i.imgur.com/8NPTVnW.gif)
@@ -19,6 +22,10 @@ Search Atomic css right in your favorite editor
 Lack of test
 
 ## Release Notes
+
+### 0.0.2
+
+Rename
 
 ### 0.0.1
 
