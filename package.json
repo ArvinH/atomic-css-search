@@ -37,5 +37,10 @@
   "dependencies": {
     "atomizer": "^3.4.6",
     "lodash": "^4.17.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArvinH/atomic-css-search"
+    },
+    "icon": "images/acss-logo.png"
 }
