@@ -1,4 +1,4 @@
-# atomic-css-search README
+# atomic-css-search
 
 Search Atomic css right in your favorite editor
 
