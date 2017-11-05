@@ -6,11 +6,17 @@ Search Atomic css right in your favorite editor
 
 ![Demo](https://i.imgur.com/8NPTVnW.gif)
 
+## Dev
+
+* Need node 6 or up.
+* `npm install`
+* Pre-process `ruleArray.json`:
+    * `node lib/parseRule.js`
+
+
 ## Known Issues
 
-May have performance issue need to be addressed.
-
-(Currently, We parse rule on the fly, may should create a snippets)
+Lack of test
 
 ## Release Notes
 
