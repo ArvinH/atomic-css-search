@@ -1,46 +1,46 @@
 {
-  "name": "atomic-css-search",
-  "displayName": "Atomic-css-search",
-  "description": "search atomic css class name",
-  "version": "0.0.1",
-  "publisher": "ArvinH",
-  "engines": {
-    "vscode": "^1.17.0"
-  },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onCommand:extension.searchAtomic"
-  ],
-  "main": "./extension",
-  "contributes": {
-    "commands": [
-      {
-        "command": "extension.searchAtomic",
-        "title": "atomic search"
-      }
-    ]
-  },
-  "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "node ./node_modules/vscode/bin/test"
-  },
-  "devDependencies": {
-    "typescript": "^2.5.2",
-    "vscode": "^1.1.5",
-    "mocha": "^3.5.0",
-    "eslint": "^4.6.1",
-    "@types/node": "^7.0.0",
-    "@types/mocha": "^2.2.42"
-  },
-  "dependencies": {
-    "atomizer": "^3.4.6",
-    "lodash": "^4.17.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ArvinH/atomic-css-search"
+    "name": "atomic-css-search",
+    "displayName": "Atomic-css-search",
+    "description": "search atomic css class name",
+    "version": "0.0.2",
+    "publisher": "ArvinH",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.searchAtomic"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.searchAtomic",
+                "title": "atomic search"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.5.2",
+        "vscode": "^1.1.5",
+        "mocha": "^3.5.0",
+        "eslint": "^4.6.1",
+        "@types/node": "^7.0.0",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "atomizer": "^3.4.6",
+        "lodash": "^4.17.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ArvinH/atomic-css-search"
     },
     "icon": "images/acss-logo.png"
 }
