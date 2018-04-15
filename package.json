@@ -24,15 +24,16 @@
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "node ./node_modules/vscode/bin/test"
+        "test": "node ./node_modules/vscode/bin/test",
+        "build-test": "./node_modules/mocha/bin/mocha ./test/mock.js"
     },
     "devDependencies": {
-        "typescript": "^2.5.2",
-        "vscode": "^1.1.5",
-        "mocha": "^3.5.0",
-        "eslint": "^4.6.1",
+        "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.0",
-        "@types/mocha": "^2.2.42"
+        "eslint": "^4.6.1",
+        "mocha": "^3.5.3",
+        "typescript": "^2.5.2",
+        "vscode": "^1.1.5"
     },
     "dependencies": {
         "atomizer": "^3.4.6",
