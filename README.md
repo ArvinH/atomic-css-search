@@ -1,6 +1,7 @@
 # atomic-css-search
 [![Travis](https://travis-ci.org/ArvinH/atomic-css-search.svg?branch=master)](https://travis-ci.org/ArvinH/atomic-css-search/)
-[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version-short/ArvinH.atomic-css-search.svg)](https://marketplace.visualstudio.com/items?itemName=ArvinH.atomic-css-search) [![Installs](https://vsmarketplacebadge.apphb.com/installs/ArvinH.atomic-css-search.svg)](https://marketplace.visualstudio.com/items?itemName=ArvinH.atomic-css-search) [![Dependency Status](https://david-dm.org/ArvinH/atomic-css-search.svg)](https://david-dm.org/ArvinH/atomic-css-search)
+[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version-short/ArvinH.atomic-css-search.svg)](https://marketplace.visualstudio.com/items?itemName=ArvinH.atomic-css-search) [![Installs](https://vsmarketplacebadge.apphb.com/installs/ArvinH.atomic-css-search.svg)](https://marketplace.visualstudio.com/items?itemName=ArvinH.atomic-css-search) [![Dependency Status](https://david-dm.org/ArvinH/atomic-css-search.svg)](https://david-dm.org/ArvinH/atomic-css-search) 
+[![node][node]]()
 
 Search Atomic css right in your favorite editor
 
