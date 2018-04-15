@@ -4,10 +4,8 @@
     "description": "search atomic css class name",
     "version": "0.0.2",
     "publisher": "ArvinH",
-    "engineStrict": true,
     "engines": {
-        "vscode": "^1.17.0",
-        "node": ">=6.0.0"
+        "vscode": "^1.17.0"
     },
     "categories": [
         "Other"
