@@ -1,4 +1,4 @@
-export default {{
+export default {
     "animation: value": "Anim(<value> or <custom-param>)",
     "animation-delay: value": "Animdel(<value> or <custom-param>)",
     "animation-direction: alternate": "Animdir(a)",
@@ -1979,4 +1979,4 @@ export default {{
     "stroke-linejoin: round": "Stklj(r)",
     "stroke-linejoin: miter": "Stklj(m)",
     "stroke-linejoin: value": "Stklj(<custom-param>)"
-}}
+}
