@@ -25,6 +25,10 @@ Lack of test
 
 ## Release Notes
 
+### 0.0.4
+
+Sync release notes and version
+
 ### 0.0.3
 
 Upgrade atomizer version to @^3.4.6
