@@ -25,6 +25,10 @@ Lack of test
 
 ## Release Notes
 
+### 0.0.5
+
+Fix lodash security issue
+
 ### 0.0.4
 
 Sync release notes and version
