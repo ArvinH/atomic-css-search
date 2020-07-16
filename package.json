@@ -37,7 +37,7 @@
     },
     "dependencies": {
         "atomizer": "^3.4.6",
-        "lodash": "^4.17.14"
+        "lodash": "^4.17.19"
     },
     "repository": {
         "type": "git",
