@@ -23,7 +23,6 @@
         ]
     },
     "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test",
         "build-test": "./node_modules/mocha/bin/mocha ./test/mock.js"
     },
@@ -32,11 +31,12 @@
         "@types/node": "^7.0.65",
         "eslint": "^4.19.1",
         "mocha": "^5.0.0",
-        "typescript": "^2.9.1",
-        "vscode": "^1.1.35"
+        "typescript": "^2.9.1"
     },
     "dependencies": {
-        "atomizer": "^3.4.6",
+        "@types/vscode": "1.17",
+        "@vscode/test-electron": "^2.3.4",
+        "atomizer": "^3.28.0",
         "lodash": "^4.17.21"
     },
     "repository": {
